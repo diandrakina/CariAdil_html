@@ -1,0 +1,197 @@
+@font-face {
+    font-family: iosFont;
+    src: url("../sf-pro-display-cufonfonts/SFPRODISPLAYMEDIUM.OTF");
+}
+
+@media screen and (max-width : 769px){
+    
+}
+
+body{
+    margin: 0;
+    padding: 0vh;
+    font-family: iosFont;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron1{
+    width: 100%;
+    height: 130vh;
+    background-image: url(../assets/images/jumbotron1.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    align-content: center;
+}
+
+.quotes{
+    color: white;
+    font-style: italic;
+    font-size: 200%;
+    padding-left: 40vh;
+    padding-right: 40vh;
+}
+.from_quotes{
+    color: white;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 120%;
+    margin-left: 40vh;
+    margin-right: 40vh;
+    padding-bottom: 30vh;
+    border-bottom: 2px solid white;
+}
+
+.kasus{
+    margin-left: 40vh;
+    margin-right: 40vh;
+    color: white;
+}
+
+.headline-kasus{
+    font-weight: 700;
+    font-style: italic;
+    display: inline-block;
+    border-bottom: 3px solid orange;
+}
+
+.column-kasus{
+    display: flex;
+    justify-content: space-betweens;
+}
+
+.detail-kasus{
+    margin-right: 2%;
+    color: white;
+}
+
+.judul-kasus{
+    font-weight: 800;
+    font-style: italic;
+}
+
+/* JUMBOTRON 2 */
+
+.jumbotron2{
+    width: 100%;
+    height: 130vh;
+    background-color: rgba(239, 239, 239, 1); 
+    align-content: center;
+}
+
+.butuh-bantuan{
+    text-align: center;
+    font-weight: 700;
+}
+
+.hubungi-cariadil{
+    text-align: center;
+    font-style: italic;
+}
+
+.box-informasi{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 12px;
+}
+.detail-box-informasi{
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.aturan-syarat{
+    text-align: center;
+    font-style: italic;
+    color: grey;
+}
+
+/* JUMBOTRON 3 */
+
+.jumbotron3{
+    width: 100%;
+    height: 130vh;
+    background-color: white; 
+    align-content: center;
+}
+.jumbo3{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.box-kasus-hukum{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detail-box-kasus-hukum{
+    margin-right: 5%;
+}
+
+.judul-kasus{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.img-detail-box-kasus-hukum{
+    height: 200px;
+    background-color: orange;
+    border-radius: 12px;
+}
+
+.view-more{
+    margin-top: 10%;
+    align-self: center;
+    justify-content: center;
+}
+
+.title1{
+    font-size: 150%;
+}
+
+.date{
+    color: grey;
+    font-size: 80%;
+}
+
+.desc-kasus{
+    text-align: justify;
+}
+
+.status{
+    background-color: orangered;
+    color: white;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+
+/* JUMBOTRON 4 */
+
+.jumbotron4{
+    width: 100%;
+    height: 130vh;
+    background-image: url(../assets/images/jumbotron4.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 0;
+    align-content: center;
+    color: white;
+}
+
+.judul-kasus{
+  
+}
+
+
+
+
