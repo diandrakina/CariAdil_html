@@ -15,6 +15,43 @@ body{
     background-position: center;
 }
 
+/* NAVIGATION BAR */
+nav{
+    overflow: hidden;
+    width: 100%;
+    background: transparent;
+    position: fixed;
+    top: 0;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+}
+
+nav .logo{
+    font-size: 7.rem;
+    width: 50%;
+    position: relative;
+    top: 7px;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+    color: orange;
+    padding: 0px 10px;
+    font-weight: bold;
+    transition: 0.15s;
+}
+
+nav a:hover{
+    color: aliceblue;
+}
+
+/* JUMBOTRON 1 */
+
 .jumbotron1{
     width: 100%;
     height: 130vh;
@@ -22,7 +59,7 @@ body{
     background-size: cover;
     background-position: center;
     position: relative;
-    z-index: 0;
+    z-index: -1;
     align-content: center;
 }
 
@@ -30,23 +67,23 @@ body{
     color: white;
     font-style: italic;
     font-size: 200%;
-    padding-left: 40vh;
-    padding-right: 40vh;
+    padding-left: 18vw;
+    padding-right: 18vw;
 }
 .from_quotes{
     color: white;
     font-style: italic;
     font-weight: 300;
     font-size: 120%;
-    margin-left: 40vh;
-    margin-right: 40vh;
-    padding-bottom: 30vh;
+    margin-left: 18vw;
+    margin-right: 18vw;
+    padding-bottom: 20vh;
     border-bottom: 2px solid white;
 }
 
 .kasus{
-    margin-left: 40vh;
-    margin-right: 40vh;
+    margin-left: 18vw;
+    margin-right: 18vw;
     color: white;
 }
 
@@ -96,6 +133,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    align-content: center;
     margin-top: 5%;
     margin-left: 20%;
     margin-right: 20%;
@@ -105,6 +143,16 @@ body{
     width: 200px;
     padding: 20px;
     text-align: center;
+}
+
+.fa-solid{
+    color: orange;
+    font-size: 30px;
+}
+
+.informasi{
+    font-size: 18px;
+    color: orange;
 }
 
 .aturan-syarat{
@@ -124,6 +172,7 @@ body{
 .jumbo3{
     margin-left: 20%;
     margin-right: 20%;
+    justify-content: center;
 }
 
 .box-kasus-hukum{
@@ -150,7 +199,15 @@ body{
 .view-more{
     margin-top: 10%;
     align-self: center;
-    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border-radius: 12px;
+    border: none;
+    padding: 15px 28px;
+    text-align: center;
+    display: inline-block;
 }
 
 .title1{
@@ -167,13 +224,12 @@ body{
 }
 
 .status{
+    width: 5vw;
     background-color: orangered;
     color: white;
     padding: 8px;
     border-radius: 12px;
 }
-
-
 /* JUMBOTRON 4 */
 
 .jumbotron4{
@@ -183,15 +239,77 @@ body{
     background-size: cover;
     background-position: center;
     position: relative;
-    z-index: 0;
+    z-index: -1;
     align-content: center;
     color: white;
 }
 
-.judul-kasus{
-  
+.box-desc-terlibat{
+    width: 80vw;
 }
 
+.desc-terlibat{
+    color: white;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 110%;
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
 
+.button-lapor-field{
+    margin-left: 18vw;
+    margin-right: 18vw;
+}
+
+.button-formulir{
+    margin-top: 10%;
+    align-self: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: orange;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.button-lapor{
+    margin-top: 10%;
+    align-self: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: orange;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 2px solid orange;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.bottom-nav{
+    background-color: rgba(81, 76, 67, 1);
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.info-cariadil{
+    margin-top: 10vh;
+    margin-left: 18vw;
+    margin-right: 10vw;
+    color: white;
+    background-color: aqua;
+}
+
+.kontak-cariadil{
+    margin-top: 10vh;
+    margin-right: 18vw;
+    color: white;
+    background-color: rebeccapurple;
+}
 
 
