@@ -302,7 +302,6 @@ nav a:hover{
     margin-left: 18vw;
     margin-right: 10vw;
     color: white;
-    background-color: aqua;
 }
 
 .kontak-cariadil{
@@ -312,4 +311,21 @@ nav a:hover{
     background-color: rebeccapurple;
 }
 
+.social-media-box{
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.social-media{
+    justify-content: space-between;
+    display: flex;
+    width: 10vw;
+}
+
+.fa-brands{
+    color: orange;
+    font-size: 20px;
+}
 
