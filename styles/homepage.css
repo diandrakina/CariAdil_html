@@ -17,14 +17,16 @@ body{
 
 /* NAVIGATION BAR */
 nav{
-    overflow: hidden;
-    width: 100%;
-    background: transparent;
     position: fixed;
     top: 0;
+    overflow: hidden;
+    width: 100%;
+    /* background: transparent; */
+    transition: background-color 0.5s ease;
     height: 10vh;
     display: flex;
     justify-content: center;
+    z-index: 1000;
 }
 
 nav .logo{
@@ -40,14 +42,14 @@ nav li{
 
 nav a{
     text-decoration: none;
-    color: orange;
+    color: white;
     padding: 0px 10px;
-    font-weight: bold;
+    font-weight: 900;
     transition: 0.15s;
 }
 
 nav a:hover{
-    color: aliceblue;
+    color: orange
 }
 
 /* JUMBOTRON 1 */
@@ -104,6 +106,14 @@ nav a:hover{
     color: white;
 }
 
+.berita-selengkapnya{
+    color: white;
+}
+
+.berita-selengkapnya:hover{
+    color: orange;
+}
+
 .judul-kasus{
     font-weight: 800;
     font-style: italic;
@@ -126,6 +136,8 @@ nav a:hover{
 .hubungi-cariadil{
     text-align: center;
     font-style: italic;
+    font-size: 48px;
+    text-decoration: underline solid orange;
 }
 
 .box-informasi{
@@ -151,7 +163,7 @@ nav a:hover{
 }
 
 .informasi{
-    font-size: 18px;
+    font-size: 14px;
     color: orange;
 }
 
@@ -305,10 +317,11 @@ nav a:hover{
 }
 
 .kontak-cariadil{
+    /* background-color: aqua; */
+    height: 40vh;
     margin-top: 10vh;
     margin-right: 18vw;
     color: white;
-    background-color: rebeccapurple;
 }
 
 .social-media-box{
@@ -329,3 +342,37 @@ nav a:hover{
     font-size: 20px;
 }
 
+.input-container{
+    border: 3px solid orange;
+    height: 8vh;
+    align-content: center;
+    border-radius: 12px;
+}
+
+.custom-textfield{
+    background-color: transparent;
+    padding: 12px;
+    border: none;
+    font-size: 14px;
+}
+
+.custom-textfield::placeholder{
+    color: orange;
+}
+
+.send-button{
+    background-color: transparent;
+    border: none;
+}
+
+.send-button .fa-regular{
+    color: orange;
+    font-size: 16px;
+}
+
+.copyright{
+    justify-content: end;
+    font-weight: bold;
+    font-size: 16px;
+    color: gray;
+}

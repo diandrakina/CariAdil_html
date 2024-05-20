@@ -10,10 +10,6 @@
 <body>
     <!-- Navigation Bar -->
     <nav class="topnav">
-
-        <!-- <input type="checkbox" name="" id="nav-button">
-        <label for="nav-button">&#9776</label> -->
-
         <div>
             <img src="images/Logo CariAdil.png" class="logo" alt="Logo CariAdil">
         </div>
@@ -24,6 +20,7 @@
             <li><a href="#">Tentang</a></li>
         </ul>
     </nav>
+    <!-- End Navigation Bar -->
 
     <!-- Quotes Part  -->
     <div class="jumbotron1">
@@ -40,12 +37,12 @@
                 <div class="detail-kasus">
                     <h3 class="judul-kasus">Berita Pertama</h3>
                     <p class="deskripsi-kasus">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
-                    <a href="#">Berita Selengkapnya ></a>
+                    <a href="#" class="berita-selengkapnya">Berita Selengkapnya ></a>
                 </div>
                 <div class="detail-kasus">
                     <h3 class="judul-kasus">Berita Pertama</h3>
                     <p class="deskripsi-kasus">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</p>
-                    <a href="#">Berita Selengkapnya ></a>
+                    <a href="#" class="berita-selengkapnya">Berita Selengkapnya ></a>
                 </div>
             </div>
         </div>
@@ -71,7 +68,7 @@
 
             <div class="detail-box-informasi">
                 <i class="fa-solid fa-location-dot"></i>
-                <h3 class="informasi">Location</h3>
+                <h3 class="informasi">Lokasi</h3>
                 <h5 class="deskripsi-informasi">(+62)21 - 3929840</h5>
             </div>
         </div>
@@ -152,8 +149,20 @@
         </div>
         <div class="kontak-cariadil">
             <h3>Berlangganan dengan berita dari CariAdil.</h3>
+
+            <div class="input-container">
+                <input type="text" class="custom-textfield" placeholder="Enter Your Email...">
+                <button class="send-button">
+                    <i class="fa-regular fa-paper-plane"></i>
+                </button>
+            </div>
+
+            <div class="copyright">
+                <p>Copyright @2024 by CariAdil</p>
+            </div>
+
         </div>
     </div>
-    
+    <script src="script/homepage.js"></script>
 </body>
 </html>
