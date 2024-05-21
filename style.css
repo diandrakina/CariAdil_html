@@ -1,0 +1,141 @@
+body{
+    background-color: antiquewhite;
+}
+
+.Container{
+    margin-left: 18%;
+    margin-right: 18%;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 2%;
+}
+
+.header{
+    margin: 2%;
+    font-size: 40px;
+    font-style: italic;
+}
+
+.subHeader{ 
+    font-size: 24px;
+    display: flex;
+    gap: 0.5%;
+    margin: 2%;
+}
+
+.namaLBH{
+    color: orange;
+}
+
+.tanggal{
+    color: black;
+    opacity: 60%;
+}
+
+.jumbotron{
+    width: 96%;
+    padding-bottom: 40%;    
+    background-color: orange;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+#back{
+    border: 3px solid orange;
+    background-color: white;
+    color: orange;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+#share{
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+.titik{
+    padding: 16px;
+    text-align: center;
+}
+
+.titiks{
+    background-color: orange;
+    width: 5px;
+    height: 5px;
+    position: relative;
+    border-radius: 100%;
+}
+
+.desc{
+    font-size: 24px;
+    margin: 2%;
+    text-align: justify;
+}
+
+.bottom{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomLeft{
+    width: 40%;
+}
+
+.bottomRight{
+    width: 40%;
+}
+
+h1{
+    text-decoration: underline 5px solid orange;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 0px 4px 20px lightgrey;
+    padding: 5%;
+    border-radius: 20px;
+    margin-bottom: 4%;
+    margin-top: 4%;
+    width: 100%;
+}
+
+.statusCard{
+    margin: 2%;
+}
+
+.w3-container{
+    background-color: #E87B2F;
+}
+
+.w3-light-grey{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.rp{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.terkumpul{
+    color: #E87B2F;
+}
+
+#donasi{
+    padding: 2%;
+    border-radius: 15px;
+    background-color: #E87B2F;
+    border: none;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+}
